@@ -1,0 +1,7 @@
+<iscomment> View-Cart Button on Drawer </iscomment>
+<div class="mb-sm-3 mb-md-0">
+    <a href="${URLUtils.https('Cart-Show')}"
+    class="btn btn-primary btn-block checkout-btn ${pdict.valid.error ? 'disabled' : ''}" role="button">
+        ${Resource.msg('link.view.cart','cart',null)}
+    </a>
+</div>

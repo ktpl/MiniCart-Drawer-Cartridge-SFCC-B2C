@@ -1,0 +1,13 @@
+<iscomment> Empty Minicart Drawer Vector image with Continue Shopping button </iscomment>
+
+<div class="empty-cart" >
+    <img class="img-fluid mw-100" src="${URLUtils.staticURL('/images/empty-cart.png')}" alt="${Resource.msg('altText.cart.empty','cart',null)}" />
+    <div class="text-center">
+        <h4>${Resource.msg('info.cart.empty.msg','cart',null)}</h4>
+    </div>
+    <div class="text-center">
+        <a href="${URLUtils.url('Home-Show')}" title="${Resource.msg('link.continue.shopping','cart',null)}"
+        class="btn btn-primary" role="button">
+        ${Resource.msg('link.continue.shopping','cart',null)} <i class="fa fa-angle-double-right"></i></a>
+    </div>
+</div>
